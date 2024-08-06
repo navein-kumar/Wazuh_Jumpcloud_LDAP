@@ -202,8 +202,8 @@ config:
             - ldap.jumpcloud.com:389
             bind_dn: 'uid=admin,ou=Users,o=xxxxxx,dc=jumpcloud,dc=com'
             password: 'xxxxxx'
-            rolebase: 'ou=Groups,o=617a517ebb4cb34492f2ae47,dc=jumpcloud,dc=com'
-            userbase: 'ou=Users,o=617a517ebb4cb34492f2ae47,dc=jumpcloud,dc=com'
+            rolebase: 'ou=Groups,o=xxxxxxxxxxxx,dc=jumpcloud,dc=com'
+            userbase: 'ou=Users,o=xxxxxxxxxxxx,dc=jumpcloud,dc=com'
             # Filter to search for roles (currently in the whole subtree beneath rolebase)
             # {0} is substituted with the DN of the user
             # {1} is substituted with the username
